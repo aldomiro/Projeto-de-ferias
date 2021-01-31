@@ -1,0 +1,108 @@
+@charset:"utf-8";
+
+body{
+	background-color: #ffc996;
+	font-family: "open sans", sans-serif;
+}
+section#top nav{
+	background-color: rgb(255, 171, 64, 0.6);
+	padding: 1em;
+	height: 6.2em;
+}
+div#info{
+
+}
+.logo{
+	height: 75px;
+	margin-top: -3px;
+	margin-left: 50px;
+}
+.responsive-img{
+	float: left;
+}
+
+div#form{
+	background-color: #FFFFCC;
+	font-family: "open sans", sans-serif;
+	
+}
+div.card{
+	background-color: #FFFFCC;
+	font-family: "open sans", sans-serif;
+}
+h3.white-text{
+	border-width: 100%;
+	background-color: rgb(255, 171, 64);
+}
+a.btn-large{
+	background-color: rgb(255, 171, 64);
+}
+
+/* formatacaos da section form CADASTRO*/
+section.form{
+	margin-top: 80px;
+}
+section#login{
+	height: 590px;
+}
+/*template#home*/
+#template{
+	margin-top: 100px;
+}
+
+/* formatacaos da section form LOGIN*/
+section.form{
+	margin-top: 80px;
+}
+section#login{
+	height: 590px;
+}
+responsive-img{
+	display: table-cell;
+	float: left;
+}
+.modal-trigger{
+	border-radius: 14px;
+}
+#sup{
+	border-width: 100%;
+}
+#ent{
+	border-radius: 14px;
+}
+#p6{
+	font-size: 25px;
+	font-family: "open sans", sans-serif;
+
+}
+
+
+div#social ul li{
+	width:  32px; height: 32px;
+	float: left;
+	margin-right: 15px;
+}
+div#social ul li a{
+	background-image: url('../imagens/sprite-social.png');
+	display: block;
+	height: 100%;
+	text-indent: -99999em;
+}
+div#social ul li:nth-child(1) a{background-position: 0 0;}
+div#social ul li:nth-child(2) a{background-position: -32px 0;}
+div#social ul li:nth-child(3) a{background-position: -64px 0;}
+div#social ul li:nth-child(4) a{background-position: -96px 0;}
+div#social ul li:nth-child(5) a{background-position: -128px 0;}
+
+div#social ul li:nth-child(1) a:hover{background-position: 0 -32px;}
+div#social ul li:nth-child(2) a:hover{background-position: -32px -32px;}
+div#social ul li:nth-child(3) a:hover{background-position: -64px -32px;}
+div#social ul li:nth-child(4) a:hover{background-position: -96px -32px;}
+div#social ul li:nth-child(5) a:hover{background-position: -128px -32px;}
+footer.page-footer{
+	background-color: #ffab40;
+	margin-bottom: 0px;
+}
+footer#footerbotton{
+	margin-bottom: 0px;
+}
